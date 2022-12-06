@@ -98,7 +98,7 @@ button:hover {
 
 #about{
     width: 100%;
-    height: 300px;
+    height: fit-content;
 }
 
 .box1{
@@ -131,4 +131,54 @@ button:hover {
     position: relative;
 }
 
- 
+/*--------------------------------------------------------------------*/
+
+.sepa2{
+    height: 250px;
+    width: 100vw;
+}
+
+/*----------------------------WORK------------------------------*/
+.work{
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para p {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.swiper {
+    width: 800px;
+    height: 400px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
